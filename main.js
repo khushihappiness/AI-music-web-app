@@ -1,11 +1,31 @@
 function setup()
 {
-    canvas=createCanvas(300, 300);
+    canvas=createCanvas(600, 500);
     canvas.center();
+
+    video=createCapture(VIDEO);
+    video.hide();
 }
+
+song="";
+song1="";
+
+function preload()
+{
+    song=loadSound("music.mp3")
+    song1=loadSound("music2.mp3")
+}
+
 function draw()
 {
-    background("#21F2E2");
-    fill('#6CF1D1');
-    stroke('#090909');
+    image(video, 0, 0, 600, 500);
+}
+function play()
+{
+    song.play();
+}
+
+function stop()
+{
+    song.stop();
 }
