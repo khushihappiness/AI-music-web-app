@@ -1,45 +1,26 @@
+background
+{
+    background-size: cover;
+}
+.play_button
+{
+    width:160px;
+    font-size: 25px;
+} 
 .heading
 {
     font-size: 23px;
     width: 100%;
     margin:0px;
 }
-background
+canvas
 {
-    background-size: cover;
+border-radius: 75px;
+border: 3px solid white;
+color: white;
 }
-#note
+.note
 {
     font-size:15px;
     color:black;
 }
-.div_name
-{
-    float: center;
-}
-
-#speed
-{
-    font-size: 23px;
-    margin: 15px;
-}
-canvas{
-    border: 5px solid black;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px yellow;
-    
-    }
-    .play_button
-    {
-        margin-left: 50px;
-        width:120px;
-        font-size:23px;
-        float:left;
-    }
-    .stop_button
-    {
-        margin-right: 50px;
-        width:120px;
-        font-size:23px;
-        float:right;
-    }
