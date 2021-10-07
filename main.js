@@ -48,3 +48,10 @@ function gotPoses(results)
         console.log("Right wrist X = " + rightWristX + "Right wrist Y = " + rightWristY)
     }
 }
+
+function play()
+{
+    song.play();
+    song.setVolume(1);
+    song.rate(1);//predefined function to control the speed, within the range: 1 to 2.5
+}
